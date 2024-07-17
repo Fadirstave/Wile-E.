@@ -1,0 +1,106 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fde89d; /* Match the desert background color */
+  color: #333; /* Adjust text color for contrast */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.mailbox {
+  margin-top: 20px;
+}
+
+picture img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+picture img:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #e91e63;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.checkmark-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.checkmark-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.checkmark-list li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-size: 1.2em;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: #333;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d81b60;
+}
