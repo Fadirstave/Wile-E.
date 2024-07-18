@@ -23,9 +23,6 @@ picture img {
   transition: transform 0.3s ease;
 }
 
-picture img:hover {
-  transform: scale(1.1) rotate(-5deg);
-}
 
 h1 {
   font-size: 2.5em;
@@ -102,5 +99,92 @@ input[type="email"] {
 }
 
 .button:hover {
-  background-color: #d81b60;
+  background-color: #eb75a0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.homebutton {
+  margin: 30px;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(225, 243, 232);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.discordbutton {
+  margin: 30px;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(225, 243, 232);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rulesbutton {
+  margin: 30px;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(225, 243, 232);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.staffbutton {
+  margin: 30px;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(225, 243, 232);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homebutton:hover {
+  background-color: #f5cd4b;
+  transition: background-color 0.8 ease;
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.discordbutton:hover {
+  background-color: #f5cd4b;
+  transition: background-color 0.8 ease;
+  transform: scale(1.1) rotate(5deg);
+}
+
+.rulesbutton:hover {
+  background-color: #f5cd4b;
+  transition: background-color 0.8 ease;
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.staffbutton:hover {
+  background-color: #f5cd4b;
+  transition: background-color 0.8 ease;
+  transform: scale(1.1) rotate(5deg);
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
 }
